@@ -1,0 +1,29 @@
+{
+  "name": "tournamentpullerbot",
+  "version": "1.0.0",
+  "description": "A discord bot that pulls meta information from mtgtop8",
+  "main": "EventFinder.js",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "discord.io": "^2.5.3",
+    "mtgtop8": "^0.3.1",
+    "rewire": "^4.0.1",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dudemanword/DiscordBotPullDecklists.git"
+  },
+  "author": "Shaun Raj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dudemanword/DiscordBotPullDecklists/issues"
+  },
+  "homepage": "https://github.com/Dudemanword/DiscordBotPullDecklists#readme"
+}
